@@ -1,0 +1,17 @@
+/*
+Matt Olson
+Alex Izydorczyk
+
+Game-play function declarations
+*/
+#pragma once
+#include <iostream>
+#include <regex>
+#include <sstream>
+#include "solver.hpp"
+
+
+//main function to run the user interactive game
+void playGame(int size, int nobs, const std::string& solver_method);
+// helper function to prompt user to play again
+void playAgainPrompt(int size, int nobs, const std::string& solver_method);
